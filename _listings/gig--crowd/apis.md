@@ -7,11 +7,21 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Logos
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/logos/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: GIG & Crowd - Post Account Logout
+  x-api-slug: apiv1accountlogout-post
+  description: Post account logout.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logos/master/_listings/gig--crowd/apiv1accountlogout-post-openapi.md
 x-common:
 - type: x-openapi
   url: https://gigandcrowd.com/swagger/docs/v1

@@ -12,11 +12,37 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Logos
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/logos/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Data.gov API - Add Organizations Org Logo
+  x-api-slug: organizationsorglogo-post
+  description: Upload a new logo
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logos/master/_listings/data-gov/organizationsorglogo-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logos/master/_listings/data-gov/organizationsorglogo-post-openapi.md
+- name: Data.gov API - Put Organizations Org Logo
+  x-api-slug: organizationsorglogo-put
+  description: Set the logo BBox
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logos/master/_listings/data-gov/organizationsorglogo-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logos/master/_listings/data-gov/organizationsorglogo-put-openapi.md
 - name: Data.gov API - Add Organizations Org Logo
   x-api-slug: organizationsorglogo-post
   description: Upload a new logo
